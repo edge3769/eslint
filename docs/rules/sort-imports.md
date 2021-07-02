@@ -13,7 +13,7 @@ import {foo, bar} from "my-module.js";
 import * as myModule from "my-module.js";
 ```
 
-The import statement can also import a module without exported bindings. Used when the module does not export anything, but runs it own code or changes the global context object.
+The import statement can also import a module without exported bindings. Used when the module does not export anything, but runs its own code or changes the global context object.
 
 ```js
 // none - Import module without exported bindings.
